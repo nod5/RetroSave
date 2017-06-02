@@ -1,6 +1,6 @@
 # RetroSave
 
-RetroSave.ahk -- version 170530 -- by nod5 -- GPLv3
+RetroSave.ahk -- version 2017-06-02 -- by nod5 -- GPLv3
 
 ## FRONTEND FOR RETROARCH SAVESTATES
 Fullscreen gui grid with one screenshot per save state.  
@@ -27,6 +27,7 @@ Action: A / mouse Lbutton / Enter
 Default action mode: load selected saved game  
 
 Change mode for selected item: X / Mbutton / Space  
+
 Modes:   screenshot thumbnail (load this save)  
          new (overwrite with new save here)  
          del (delete this save)  
@@ -43,7 +44,7 @@ Close game: LB+RB+select
 Pause game: RB + X / mouse Lbutton  
 
 ## NOTES
-- Windows only. Tested in Win10 with RetroArch x86_x64 nightly 170525  
+- Windows only. Last tested in Win10 with RetroArch x86_x64 1.6.0 stable 2017-06-02
 - 1920*1080 screen resolution  
 - Tested with SNES/NES/FDS/MAME games  
 - Tested with these cores  
