@@ -6,7 +6,7 @@ SetWorkingDir %A_ScriptDir%
 ;######################################
 ;# RetroSave
 ;
-;RetroSave.ahk -- version 170530 -- by nod5 -- GPLv3
+;RetroSave.ahk -- version 2017-06-02 -- by nod5 -- GPLv3
 ;
 ;## FRONTEND FOR RETROARCH SAVESTATES
 ;Fullscreen gui grid with one screenshot per savestate.
@@ -51,7 +51,7 @@ SetWorkingDir %A_ScriptDir%
 
 ;######################################
 ;## NOTES
-;- Windows only. Tested in Win10 with RetroArch x86_x64 nightly 170525
+;- Windows only. Last tested in Win10 with RetroArch x86_x64 1.6.0 stable 2017-06-02
 ;- 1920*1080 screen resolution
 ;- Tested with SNES/NES/FDS/MAME games
 ;- Tested with these cores
@@ -209,7 +209,7 @@ return
 
 ;Read gamepath and core from LibCon console log
 
-;log format as of 170525 with RetroArch x86_x64 nightly v170525
+;log format as of 2017-05-25 with RetroArch x86_x64 nightly 2017-05-25
 ;- game line sample
 ;  "RetroArch [INFO] :: Using content: <contentdir>\<subdir>\1942.zip."
 ;- core line sample for first game in session
@@ -219,7 +219,7 @@ return
 ;- in all tests game/core line was near log top, at most 28 lines down
 ;- tested on:   fbalpha_libretro.dll , mame_libretro.dll ,
 ;              nestopia_libretro.dll , bsnes_accuracy_libretro.dll ,
-;                snes9x_libretro.dll (nightlies 170525)
+;                snes9x_libretro.dll (nightlies 2017-05-25)
 ;- also tested on some older mame and fba core nightlies from 2015 2016
 
 ;LibCon syntax ReadConsoleOutput( x, y, w, h )
